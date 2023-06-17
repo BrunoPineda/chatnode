@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "puppeteer": "^20.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.21.0"
+  },
+  "name": "brucorp",
+  "description": "Chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm install --omit=dev",
+    "prod": "npm install --only=production",
+    "serve": "node index"
+  },
+  "author": "",
+  "license": "ISC"
+}
