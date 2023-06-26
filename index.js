@@ -49,8 +49,7 @@ client.on("message", (message) => {
     respuesta = "Hola que tal mi nombre es jeweler's Bot🤖 a tus ordenes";
   } else if (
     lowercaseBody.includes("productos") ||
-    lowercaseBody.includes("catálogo") ||
-    lowercaseBody.includes("joyas")
+    lowercaseBody.includes("catálogo") 
   ) {
     respuesta =
       "Tenemos una amplia selección de joyas 🤑, desde anillos de compromiso hasta pulseras y collares. ¿Estás buscando algo en particular?👀";
