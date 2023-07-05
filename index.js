@@ -228,7 +228,7 @@ client.on("message", (message) => {
     respuesta = "Para un regalo de graduación, podrías considerar un reloj elegante y sofisticado, un collar con un dije simbólico o un anillo grabado con el año de graduación. Estas joyas serán recordatorios duraderos de un hito importante en la vida de la persona graduada.";
   } else {
     respuesta =
-      "Disculpa 😖, no logro entender tu consulta o pregunta solo tengo 3 dias de vida. Por favor, reformula tu mensaje para que pueda brindarte una mejor asistencia.";
+      ".";
   }
 
   // Enviar la respuesta al cliente
